@@ -1,0 +1,62 @@
+html {
+  font-size: 18px;
+  background-color: #E0EEFA;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+footer {
+  margin: 0;
+}
+
+.theme-main * {
+  margin: 0;
+}
+
+.wp-block-button>.wp-element-button {
+  padding: 20px 40px;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: #508AA8;
+  font-size: 16px;
+  width: fit-content;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.wp-block-button>.wp-element-button:hover {
+  background-color: #336d8a;
+}
+
+.block-title {
+  text-align: center;
+  position: relative;
+  margin-bottom: 80px;
+  width: fit-content;
+}
+
+.block-title::before {
+  content: '';
+  position: absolute;
+  top: -30px;
+  left: 0;
+
+  width: 100%;
+  height: 12px;
+  border: 1px solid #031927;
+  box-shadow: 0px 0px 7px 1px #031927;
+}
+
+.block-title::after {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+
+  width: 100%;
+  height: 12px;
+  border: 1px solid #031927;
+  box-shadow: 0px 0px 7px 1px #031927;
+}

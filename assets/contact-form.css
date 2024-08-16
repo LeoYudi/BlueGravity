@@ -1,0 +1,122 @@
+.contact-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.contact-form-container .contact-form {
+  width: 600px;
+  padding: 30px;
+  box-shadow: 0px 10px 30px 0px black;
+}
+
+.contact-form-container .contact-form .contact-title {
+  color: #E47E47;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-form-container .contact-form .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.contact-form-container .contact-form .field {
+  margin-bottom: 15px;
+  font-size: 18px;
+  width: 100%;
+}
+
+.contact-form-container .contact-form .field input,
+.contact-form-container .contact-form .field textarea {
+  resize: none;
+
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #05283e;
+
+  font-size: 16px;
+
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.contact-form-container .contact-form .field input:focus,
+.contact-form-container .contact-form .field textarea:focus {
+  border: 1px solid #05283e;
+}
+
+.contact-form-container .contact-form .button-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.contact-form-container .contact-form .submit-button {
+  border: 0;
+  padding: 10px 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: #E47E47;
+  font-size: 16px;
+  width: fit-content;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+
+  cursor: pointer;
+}
+
+.contact-form-container .contact-form .button-container .submit-button:hover {
+  background-color: #bb6637;
+}
+
+.contact-form-container .contact-form .button-container p {
+  position: relative;
+}
+
+.contact-form-container .contact-form .button-container p span {
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  transform: translate(-100%, -50%);
+
+  margin: 0;
+  background-color: unset;
+}
+
+.contact-form-container .contact-form .button-container p span::before {
+  background-color: #E47E47;
+}
+
+.wp-block-post-content .contact-form-container+.wpcf7-response-output {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  font-size: 16px;
+
+  margin: 0;
+  border: 0;
+  background-color: #323232;
+  border-radius: 4px;
+  padding: 16px;
+  box-shadow:
+    rgba(0, 0, 0, 0.2) 0px 3px 5px -1px,
+    rgba(0, 0, 0, 0.14) 0px 6px 10px 0px,
+    rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+}
+
+@media (max-width: 600px) {
+  .contact-form-container .contact-form .row {
+    flex-direction: column;
+    gap: 0;
+  }
+}

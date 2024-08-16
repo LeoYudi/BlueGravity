@@ -1,0 +1,51 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-simple-cta {
+	padding: 100px 0;
+
+	.title-container {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.columns {
+		display: flex;
+		max-width: 1200px;
+		width: 90%;
+		margin: 0 auto;
+		align-items: center;
+		justify-content: space-between;
+
+		.text-container {
+			width: 50%;
+			height: fit-content;
+
+			.text {
+				font-weight: 500;
+				line-height: 1.5rem;
+
+				p {
+					margin-bottom: 30px;
+				}
+			}
+
+			.button-container {}
+		}
+
+
+		.image-container {
+			width: 40%;
+			height: fit-content;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+}

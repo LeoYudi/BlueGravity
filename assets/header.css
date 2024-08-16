@@ -1,0 +1,22 @@
+header {
+  color: #F3F9FF;
+  position: absolute;
+  width: 100%;
+}
+
+.header-menu {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.wp-block-site-logo .custom-logo-link .custom-logo {
+  height: 60px;
+  width: auto;
+}
+
+nav ul li a {
+  font-weight: bold;
+  color: #031927;
+  font-size: 1.7rem;
+}

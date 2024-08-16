@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/socials-menu",
+	"version": "0.1.0",
+	"title": "Socials Menu",
+	"category": "widgets",
+	"icon": "admin-site",
+	"description": "This block is always fixed on bottom right, where you placed this block while editing doesn't matter",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "socials-menu",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js"
+}
